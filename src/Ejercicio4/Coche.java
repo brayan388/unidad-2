@@ -8,6 +8,14 @@ package Ejercicio4;
  *
  * @author bra
  */
-public class Coche {
-    
+public class Coche extends Vehiculo {
+    public Coche(String marca) {
+        super(marca);
+    }
+
+    public void mostrarMarca() {
+
+        // ERROR: marca es private
+        System.out.println(marca);
+    }
 }

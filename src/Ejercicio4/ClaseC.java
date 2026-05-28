@@ -8,6 +8,6 @@ package Ejercicio4;
  *
  * @author bra
  */
-public class ClaseC {
+public class ClaseC extends claseA, ClaseB{
     
 }
